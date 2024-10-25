@@ -59,7 +59,7 @@ st.subheader('Original Data vs Cleaned Data')
 
 st.markdown("Original Data")
 df_ori=pd.read_csv("dataset.csv")
-st.dataframe(df_ori)
+st.dataframe(df_ori.head())
 
 st.markdown("Cleaned Data")
-st.dataframe(df)
+st.dataframe(df.head())
